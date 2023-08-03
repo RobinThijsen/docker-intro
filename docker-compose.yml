@@ -9,7 +9,7 @@ services:
             - './scripts/init.sql:/docker-entrypoint-initdb.d/1.sql'
         environment:
             - MYSQL_ROOT_PASSWORD=pass1234
-            - MYSQL_DATABASE=php-playground
+            - MYSQL_DATABASE=classicmodels
             - MYSQL_USER=playground-user
             - MYSQL_PASSWORD=playground-pass1234
         ports:
